@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.edu.rvce.seedofficer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/output"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/output"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SOLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RCRorRSP"/>
+        <activity android:name=".RCRDetails"/>
+        <activity android:name=".RCR1"/>
+        <activity android:name=".RCR2"/>
+        <activity android:name=".RCR3"/>
+        <activity android:name=".RSPDetails"/>
+        <activity android:name=".RSP1"/>
+        <activity android:name=".RSP2"/>
+        <activity android:name=".RSP3"/>
+        <activity android:name=".RSP4"/>
+        <activity android:name=".RSP5"/>
+        <activity android:name=".RSP6"/>
+        <activity android:name=".RCR5"/>
+        <activity android:name=".RCR4"/>
+        <activity android:name=".RCR6"/>
+    </application>
+
+</manifest>
